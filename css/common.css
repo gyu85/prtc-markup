@@ -1,0 +1,119 @@
+@import url(./reset.css);
+
+/* 공통 */
+.ir_pm {
+  font-size: 1px;
+  line-height: 0;
+}
+.ir_wa {
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.blind {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+}
+.screen_hidden {
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.hide {
+  display: none;
+}
+
+/* 본문 */
+.wrap_whole {
+  width: 740px;
+  padding-top: 36px;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00293f;
+}
+.header .inner_header {
+  overflow: hidden;
+  width: 740px;
+  height: 36px;
+  margin: 0 auto;
+}
+.header h1 {
+  float: left;
+  padding-left: 20px;
+}
+.header .link_gyu {
+  display: block;
+  height: 28px;
+  padding: 4px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.header .list_gnb {
+  overflow: hidden;
+  float: right;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.header .list_gnb li {
+  float: left;
+  padding-left: 10px;
+}
+.header .link_menu {
+  display: block;
+  height: 22px;
+  padding: 7px 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ccc;
+}
+.header .link_menu:hover {
+  font-weight: 600;
+  color: #fff;
+}
+.tit_content,
+.txt_content {
+  color: #555;
+  text-align: center;
+}
+.cont_main {
+  padding-top: 30px;
+}
+.tit_content {
+  font-size: 17px;
+}
+.txt_content {
+  font-size: 14px;
+}
+.mylist {
+  padding-top: 15px;
+}
+.mylist li {
+  border-bottom: 1px solid #ddd;
+}
+.mylist li:last-child {
+  border-bottom: 0;
+}
+.mylist .link_page {
+  display: block;
+  padding: 5px 0;
+}
+.mylist .link_page .explain {
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: 40px;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

@@ -1,0 +1,130 @@
+@charset 'utf-8';
+/* font */
+/* 웹폰트 */
+@font-face {
+  font-family: Noto Sans;
+  src: local(NotoSansKR-Light),
+    url(../font/NotoSansKR-Light.otf) format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Noto Sans;
+  src: local(NotoSansKR-Regular),
+    url(../font/NotoSansKR-Regular.otf) format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Noto Sans;
+  src: local(NotoSansKR-Medium),
+    url(../font/NotoSansKR-Medium.otf) format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Noto Sans;
+  src: local(NotoSansKR-Bold),
+    url(../font/NotoSansKR-Bold.otf) format('opentype');
+  font-weight: 700;
+}
+
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img {
+  border: 0 none;
+}
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+body {
+  background: #fff;
+}
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Noto Sans', 'Apple SD Gothic Neo', '돋움', Helvetica, sans-serif;
+  color: #43425d;
+}
+a {
+  color: #43425d;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "prtc-markup",
+  "version": "1.0.0",
+  "description": "markup, javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "test",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyu85/prtc-markup.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "es6",
+    "html5",
+    "css3"
+  ],
+  "author": "Kim-Dong-Gyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyu85/prtc-markup/issues"
+  },
+  "homepage": "https://github.com/gyu85/prtc-markup#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
