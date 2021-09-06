@@ -4,7 +4,7 @@
   "description": "markup, javascript",
   "main": "index.js",
   "scripts": {
-    "start": "npm run lite",
+    "start": "env-cmd -f .env.develop npm run lite",
     "test": "test",
     "lite": "lite-server"
   },
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/gyu85/prtc-markup#readme",
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "lite-server": "^2.6.1"
   }
 }
