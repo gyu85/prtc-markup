@@ -226,7 +226,7 @@ article 요소들이 중첩되었을 때는 안에 있는 article 요소들이 �
 </body>
 ```
 
-#### 참고
+#### 자료 출처
 
 - https://html.spec.whatwg.org/multipage/sections.html
 - https://www.w3schools.com/tags/tag_article.asp
