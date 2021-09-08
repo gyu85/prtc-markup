@@ -45,10 +45,10 @@
   width: 740px;
   height: 36px;
   margin: 0 auto;
+  text-align: center;
 }
 .header h1 {
-  float: left;
-  padding-left: 20px;
+  display: inline-block;
 }
 .header .link_gyu {
   display: block;
