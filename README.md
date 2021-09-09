@@ -23,6 +23,12 @@ W3C는 웹 기술들을 정의 하는 문서들을 발표한다. 이런 문서�
 
 https://html.spec.whatwg.org/multipage/
 
-## target page
+## 작업
 
-https://www.wavve.com/
+1. 회원가입 - naver 회원가입 폼 참고해서 진행
+
+## 작업 개요
+
+### 21.09.09 회원가입
+
+- 회원가입 폼 마크업 진행 중
