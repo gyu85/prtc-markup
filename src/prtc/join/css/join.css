@@ -1,13 +1,16 @@
 body{background-color:#dfe6e9}
-.join{width:100%;max-width:460px;padding:32px 16px 32px;margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box}
-.join h1{font-size:24px;text-align:center}
+select{position:relative;border-radius:0;background:#FFF url(/images/ico-arr-down.svg) no-repeat calc(100% - 8px) 50%;background-size:15px;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 .txt-info{font-size:16px;padding-top:8px;text-align:center}
-.cont-join{padding-top:8px}
+.success{color:#00b894}
+.error{color:#e17055}
+.cont-join{width:100%;max-width:460px;padding:40px 16px 32px;margin:0 auto;-webkit-box-sizing:border-box;box-sizing:border-box}
+.cont-join h1{font-size:24px;text-align:center}
 .cont-join .section-item{padding-top:8px}
 .cont-join .section-button{padding-top:16px}
 .inp-comm::placeholder{color:#b2bec3}
+.inp-comm{-webkit-appearance:none;appearance:none}
 .btn-comm{padding:0 16px;border-radius:4px;font-size:16px;color:#FFF;background-color:#00b894}
-.cont-join .lab-comm{display:inline-block;padding:8px 0;font-weight:700;font-size:15px;cursor:pointer}
+.cont-join .lab-comm{display:inline-block;padding:8px 0;font-weight:700;font-size:15px;cursor:pointer;vertical-align:top}
 .cont-join .box-input,
 .cont-join .box-option{display:flex;flex:1}
 .cont-join .box-input .inp-comm,
@@ -20,8 +23,4 @@ body{background-color:#dfe6e9}
 .cont-join .item-certification .box-input{padding-top:16px}
 .cont-join .item-certification .btn-comm{margin-left:16px;flex:none}
 .cont-join .section-button .btn-submit{width:100%;height:50px;font-size:16px}
-.cont-join .box-message{display:none;padding:4px 0 0 4px;font-size:13px}
-.cont-join .success .box-message{display:block}
-.cont-join .success .txt-message{color:#00b894}
-.cont-join .error .box-message{display:block}
-.cont-join .error .txt-message{color:#e17055}
+.cont-join .txt-message{padding:4px 0;font-size:13px}

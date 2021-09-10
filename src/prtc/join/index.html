@@ -10,139 +10,124 @@
     <link rel="stylesheet" href="./css/join.css" />
   </head>
   <body>
-    <article class="join">
+
+    <article class="cont-join">
       <h1>회원가입</h1>
       <p class="txt-info">target page naver 회원가입</p>
-      <article class="cont-join">
-        <form action="#none">
-          <fieldset>
-            <legend class="screen-out">회원가입 폼 연습</legend>
+      <form action="#none">
+        <fieldset>
+          <legend class="screen-out">회원가입 폼 연습</legend>
 
-            <section class="section-item success">
+          <div class="section-item">
+            <label for="memberId" class="lab-comm">이메일</label>
+            <div class="box-input">
               <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="memberId" class="lab-comm">이메일</label>
+              <input type="text" id="memberId" class="inp-comm" placeholder="이메일 입력해주세요.">
+            </div>
+          </div>
+
+          <div class="section-item">
+            <label for="memberPassword" class="lab-comm">비밀번호</label>
+            <div class="box-input">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <input type="password" id="memberPassword" class="inp-comm" placeholder="패스워드 입력해주세요.">
+            </div>
+          </div>
+
+          <div class="section-item">
+            <label for="memberPasswordConfirm" class="lab-comm">비밀번호 확인</label>
+            <div class="box-input">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <input type="password" id="memberPasswordConfirm" class="inp-comm" placeholder="패스워드 확인">
+            </div>
+          </div>
+
+          <div class="section-item">
+            <label for="memberName" class="lab-comm">이름</label>
+            <div class="box-input">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <input type="text" id="memberName" class="inp-comm" placeholder="이름을 입력해주세요.">
+            </div>
+          </div>
+
+          <div class="section-item">
+            <label for="birthYear" class="lab-comm">생년월일</label>
+            <div class="wrap-input">
               <div class="box-input">
-                <input type="text" id="memberId" class="inp-comm" placeholder="이메일 입력해주세요.">
+                <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+                <input type="text" id="birthYear" class="inp-comm" name="birth">
               </div>
-              <div class="box-message">
-                <p class="txt-message">사용할 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item error">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="memberPassword" class="lab-comm">비밀번호</label>
-              <div class="box-input">
-                <input type="password" id="memberPassword" class="inp-comm" placeholder="패스워드 입력해주세요.">
-              </div>
-              <div class="box-message">
-                <p class="txt-message">에러일 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item success">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="memberPasswordConfirm" class="lab-comm">비밀번호 확인</label>
-              <div class="box-input">
-                <input type="password" id="memberPasswordConfirm" class="inp-comm" placeholder="패스워드 확인">
-              </div>
-              <div class="box-message">
-                <p class="txt-message">사용할 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item error">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="memberName" class="lab-comm">이름</label>
-              <div class="box-input">
-                <input type="text" id="memberName" class="inp-comm" placeholder="이름을 입력해주세요.">
-              </div>
-              <div class="box-message">
-                <p class="txt-message">에러일 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item error">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="birth" class="lab-comm">생년월일</label>
-              <div class="wrap-input">
-                <div class="box-input">
-                  <input type="text" id="birthYear" class="inp-comm" name="birth">
-                </div>
-                <div class="box-option">
-                  <select name="birth" id="birthMonth" class="select-comm">
-                    <option value="empty">월</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                  </select>
-                </div>
-                <div class="box-option">
-                  <select name="birth" id="birthDay" class="select-comm"></select>
-                </div>
-              </div>
-              <div class="box-message">
-                <p class="txt-message">에러일 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item success">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="gender" class="lab-comm">성별</label>
               <div class="box-option">
-                <select name="gender" id="gender" class="select-comm">
-                  <option value="empty">성별</option>
-                  <option value="male">남자</option>
-                  <option value="female">여자</option>
-                  <option value="none">선택하지 않음</option>
+                <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+                <select name="birth" id="birthMonth" class="select-comm">
+                  <option value="empty">월</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
                 </select>
               </div>
-              <div class="box-message">
-                <p class="txt-message">사용할 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item success">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="memberEmailConfirm" class="lab-comm">본인 확인 이메일</label>
-              <div class="box-input">
-                <input type="password" id="memberEmailConfirm" class="inp-comm">
-              </div>
-              <div class="box-message">
-                <p class="txt-message">사용할 때 메시지 입니다.</p>
-              </div>
-            </section>
-
-            <section class="section-item item-certification error">
-              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
-              <label for="phoneNumber" class="lab-comm">휴대전화</label>
               <div class="box-option">
-                <select name="phoneNumber" id="phoneNumber" class="select-comm"></select>
+                <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+                <select name="birth" id="birthDay" class="select-comm"></select>
               </div>
-              <div class="box-input">
-                <input type="text" id="certificationNumber" class="inp-comm">
-                <button type="button" class="btn-comm">인증번호 받기</button>
-              </div>
-              <div class="box-message">
-                <p class="txt-message">휴대전화를 통해 인증 해주세요.</p>
-              </div>
-            </section>
+            </div>
+          </div>
 
-            <section class="section-button">
-              <button class="btn-comm btn-submit" type="submit">가입하기</button>
-            </section>
-          </fieldset>
-        </form>
-      </article>
+          <div class="section-item">
+            <label for="gender" class="lab-comm">성별</label>
+            <div class="box-option">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <select name="gender" id="gender" class="select-comm">
+                <option value="empty">성별</option>
+                <option value="male">남자</option>
+                <option value="female">여자</option>
+                <option value="none">선택하지 않음</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="section-item">
+            <label for="memberEmailConfirm" class="lab-comm">본인 확인 이메일</label>
+            <div class="box-input">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <input type="text" id="memberEmailConfirm" class="inp-comm">
+            </div>
+          </div>
+
+          <div class="section-item item-certification">
+            <label for="localNumber" class="lab-comm">휴대전화</label>
+            <div class="box-option">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <select name="phoneCertification" id="localNumber" class="select-comm"></select>
+            </div>
+            <div class="box-input">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <input type="text" id="phoneNumber" title="전화번호 입력" name="phoneCertification" class="inp-comm"
+                placeholder="000-0000-0000">
+              <button type="button" class="btn-comm">인증번호 받기</button>
+            </div>
+            <div class="box-input certification-input">
+              <!-- 성공했을 때 클래스 success, 실패했을 때 클래스 error 추가 -->
+              <input type="text" id="certificationNumber" title="인증번호 입력" name="phoneCertification" class="inp-comm"
+                placeholder="인증번호를 입력해 주세요.">
+            </div>
+          </div>
+
+          <div class="section-button">
+            <button class="btn-comm btn-submit" type="submit">가입하기</button>
+          </div>
+        </fieldset>
+      </form>
     </article>
+
   </body>
 </html>
